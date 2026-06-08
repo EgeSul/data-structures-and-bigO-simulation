@@ -26,4 +26,4 @@ The application consists of 6 interactive modules, each demonstrating a differen
 ### Execution
 1. Clone the repository:
    ```bash
-   git clone [https://github.com/YOUR_USERNAME/YOUR_REPOSITORY_NAME.git](https://github.com/YOUR_USERNAME/YOUR_REPOSITORY_NAME.git)
+   git clone https://github.com/EgeSul/data-structures-and-bigO-simulation.git
