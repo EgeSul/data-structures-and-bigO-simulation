@@ -27,7 +27,7 @@ namespace Vize_Denemeleri
                     {
                         case 1:
                             Console.WriteLine("\nBİG(O) zaman karmaşıklığı sistemi seçim yapınız:\n1-> Amele yöntemi (O(N))\n2-> Mühendis yöntemi (O(1))");
-                            long n = 100000000; // Taşma (overflow) riskine karşı n değerini biraz makul tuttuk.
+                            long n = 100000000; // Taşma (overflow) riskine karşı 
 
                             if (int.TryParse(Console.ReadLine(), out int secim2))
                             {
@@ -163,7 +163,7 @@ namespace Vize_Denemeleri
                                     Console.Write("Ters Çevrilmiş Hali: ");
                                     while (yigin.Count > 0)
                                     {
-                                        Console.Write(yigin.Pop() + " "); // WriteLine yerine Write yapılarak yan yana yazdırıldı.
+                                        Console.Write(yigin.Pop() + " ");
                                     }
                                     Console.WriteLine("\n");
                                 }
